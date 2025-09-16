@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-16T08:15:09 IST" name="Sanity_Suite" finished-at="2025-09-16T08:17:03 IST" duration-ms="114036">
+    <groups>
+    </groups>
+    <test started-at="2025-09-16T08:15:09 IST" name="Sanity_Checks" finished-at="2025-09-16T08:17:03 IST" duration-ms="114036">
+      <class name="MobileTesting.Profile_Validation">
+        <test-method is-config="true" signature="Confi()[pri:0, instance:MobileTesting.Profile_Validation@13d9cbf5]" started-at="2025-09-16T08:16:40 IST" name="Confi" finished-at="2025-09-16T08:16:52 IST" duration-ms="12082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Confi -->
+        <test-method signature="ProfileFunctionality(java.util.HashMap)[pri:0, instance:MobileTesting.Profile_Validation@13d9cbf5]" started-at="2025-09-16T08:16:52 IST" name="ProfileFunctionality" data-provider="getData" finished-at="2025-09-16T08:17:02 IST" duration-ms="10578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Email=annu.crpf@gmail.com, Password=Annu@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProfileFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MobileTesting.Profile_Validation@13d9cbf5]" started-at="2025-09-16T08:17:02 IST" name="tearDown" finished-at="2025-09-16T08:17:03 IST" duration-ms="774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MobileTesting.Profile_Validation -->
+      <class name="MobileTesting.Login_Validation">
+        <test-method is-config="true" signature="Confi()[pri:0, instance:MobileTesting.Login_Validation@238d68ff]" started-at="2025-09-16T08:15:09 IST" name="Confi" finished-at="2025-09-16T08:15:40 IST" duration-ms="31188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Confi -->
+        <test-method signature="verifyInvalidEmailToast()[pri:0, instance:MobileTesting.Login_Validation@238d68ff]" started-at="2025-09-16T08:15:40 IST" name="verifyInvalidEmailToast" finished-at="2025-09-16T08:15:53 IST" duration-ms="12775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidEmailToast -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MobileTesting.Login_Validation@238d68ff]" started-at="2025-09-16T08:15:53 IST" name="tearDown" finished-at="2025-09-16T08:15:54 IST" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Confi()[pri:0, instance:MobileTesting.Login_Validation@238d68ff]" started-at="2025-09-16T08:15:54 IST" name="Confi" finished-at="2025-09-16T08:16:08 IST" duration-ms="14024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Confi -->
+        <test-method signature="verifyInvalidPasswordToast()[pri:0, instance:MobileTesting.Login_Validation@238d68ff]" started-at="2025-09-16T08:16:08 IST" name="verifyInvalidPasswordToast" finished-at="2025-09-16T08:16:17 IST" duration-ms="8758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidPasswordToast -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MobileTesting.Login_Validation@238d68ff]" started-at="2025-09-16T08:16:17 IST" name="tearDown" finished-at="2025-09-16T08:16:17 IST" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Confi()[pri:0, instance:MobileTesting.Login_Validation@238d68ff]" started-at="2025-09-16T08:16:17 IST" name="Confi" finished-at="2025-09-16T08:16:30 IST" duration-ms="12144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Confi -->
+        <test-method signature="verifySuccessfulLoginToast(java.util.HashMap)[pri:0, instance:MobileTesting.Login_Validation@238d68ff]" started-at="2025-09-16T08:16:30 IST" name="verifySuccessfulLoginToast" data-provider="getData" finished-at="2025-09-16T08:16:39 IST" duration-ms="9336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Email=annu.crpf@gmail.com, Password=Annu@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulLoginToast -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MobileTesting.Login_Validation@238d68ff]" started-at="2025-09-16T08:16:39 IST" name="tearDown" finished-at="2025-09-16T08:16:40 IST" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MobileTesting.Login_Validation -->
+    </test> <!-- Sanity_Checks -->
+  </suite> <!-- Sanity_Suite -->
+</testng-results>

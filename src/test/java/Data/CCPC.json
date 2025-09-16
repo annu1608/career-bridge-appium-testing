@@ -1,0 +1,26 @@
+[{ 
+	
+"Email"     : "Enter valid Email",
+"Password"  : "Enter valid Password"
+	
+
+},
+
+{
+	
+"AccountHolderName"	: "User Name",
+"Email"                 : "User Email",
+"Password"              : "Set Password",
+"ConfirmPassword"       : "Again confirm Password"
+
+	
+},
+
+{
+		
+"Email":"Enter valid Email for Rest Password"  	
+	
+}
+
+
+]

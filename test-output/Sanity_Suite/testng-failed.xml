@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sanity_Suite]">
+  <listeners>
+    <listener class-name="TestUtils.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Sanity_Checks(failed)">
+    <classes>
+      <class name="MobileTesting.Login_Validation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Confi"/>
+          <include name="verifySuccessfulLoginToast" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- MobileTesting.Login_Validation -->
+    </classes>
+  </test> <!-- Sanity_Checks(failed) -->
+</suite> <!-- Failed suite [Sanity_Suite] -->

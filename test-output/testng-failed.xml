@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression_Suite]">
+  <listeners>
+    <listener class-name="TestUtils.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Critical_Flows(failed)">
+    <classes>
+      <class name="MobileTesting.CareerGuidance_Validation">
+        <methods>
+          <include name="checkCareerGuidanceMenuPresence"/>
+          <include name="tearDown"/>
+          <include name="Confi"/>
+        </methods>
+      </class> <!-- MobileTesting.CareerGuidance_Validation -->
+      <class name="MobileTesting.JobAssistance_Validation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Confi"/>
+          <include name="jobSectionChecking"/>
+        </methods>
+      </class> <!-- MobileTesting.JobAssistance_Validation -->
+      <class name="MobileTesting.Internship_Validation">
+        <methods>
+          <include name="summerInterChecking"/>
+          <include name="tearDown"/>
+          <include name="Confi"/>
+        </methods>
+      </class> <!-- MobileTesting.Internship_Validation -->
+      <class name="MobileTesting.Home_Validatation">
+        <methods>
+          <include name="verifyHomePageContentAfterLogin"/>
+          <include name="tearDown"/>
+          <include name="Confi"/>
+        </methods>
+      </class> <!-- MobileTesting.Home_Validatation -->
+    </classes>
+  </test> <!-- Critical_Flows(failed) -->
+</suite> <!-- Failed suite [Regression_Suite] -->

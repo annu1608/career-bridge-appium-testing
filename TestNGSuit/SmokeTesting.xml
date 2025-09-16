@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="SmokeSuite" parallel="false">
+
+<listeners>
+    <listener class-name="TestUtils.Listeners"/>
+</listeners>
+
+   <test name="Smoke_TestsForSignUp">
+      <classes>
+         <class name="MobileTesting.SignUp_Validation"/>
+      </classes>
+   </test>
+
+   <test name="Smoke_TestsForForgotPswd">
+      <classes>
+         <class name="MobileTesting.ForgotPswd_validation"/>
+      </classes>
+   </test>
+
+</suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression_Suite" parallel="false">
+
+<listeners>
+    <listener class-name="TestUtils.Listeners"/>
+</listeners>
+
+  <test thread-count="5" name="Critical_Flows">
+
+        <classes>
+           
+            <class name="MobileTesting.Home_Validatation"/>
+            <class name="MobileTesting.Internship_Validation"/>
+            <class name="MobileTesting.CareerGuidance_Validation"/>
+            <class name="MobileTesting.JobAssistance_Validation"/>
+
+         
+        </classes>
+    </test>
+    
+    
+ 
+</suite> <!-- Suite -->
