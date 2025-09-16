@@ -61,7 +61,3 @@ Follow these steps to execute the automated tests:
 ✅ Login, Signup, Logout, Media, Navigation, Forms, Notifications all tested
 ✅ Scalable, reusable framework suitable for QA portfolio
 
-📸 Screenshots / Application Flow (Optional)
-Add screenshots or a high-level framework diagram here to make README more attractive.
-
-
